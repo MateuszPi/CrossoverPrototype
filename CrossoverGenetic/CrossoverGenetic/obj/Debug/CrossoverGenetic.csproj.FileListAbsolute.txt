@@ -1,0 +1,7 @@
+G:\P4\CrossoverGenetic\CrossoverGenetic\bin\Debug\CrossoverGenetic.exe.config
+G:\P4\CrossoverGenetic\CrossoverGenetic\bin\Debug\CrossoverGenetic.exe
+G:\P4\CrossoverGenetic\CrossoverGenetic\bin\Debug\CrossoverGenetic.pdb
+G:\P4\CrossoverGenetic\CrossoverGenetic\obj\Debug\CrossoverGenetic.csprojResolveAssemblyReference.cache
+G:\P4\CrossoverGenetic\CrossoverGenetic\obj\Debug\CrossoverGenetic.csproj.CoreCompileInputs.cache
+G:\P4\CrossoverGenetic\CrossoverGenetic\obj\Debug\CrossoverGenetic.exe
+G:\P4\CrossoverGenetic\CrossoverGenetic\obj\Debug\CrossoverGenetic.pdb
