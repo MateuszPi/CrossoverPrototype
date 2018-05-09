@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Diagnostics;
 using System.Diagnostics.PerformanceData;
+using System.Drawing;
 using System.Dynamic;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -713,6 +714,27 @@ namespace CrossoverGenetic
             }
 
             Console.WriteLine(wynik);
+            
+            Bitmap bmp = new Bitmap(200,200);
+            Pen blackPen = new Pen(Color.Black, 3);
+
+            for (int i = 0; i < 24; i++)
+            {
+                int x1 = (int)pop.PopulationList[0].CitiesList[i].X+100;
+                int x2 = (int)pop.PopulationList[0].CitiesList[i+1].X+100;
+                int y1 = (int)pop.PopulationList[0].CitiesList[i].Y+100;
+                int y2 = (int)pop.PopulationList[0].CitiesList[i+1].Y+100;
+                
+                using(var graphics = Graphics.FromImage(bmp))
+                {
+                    graphics.DrawLine(blackPen, x1, y1, x2, y2);
+                }
+            }
+            
+            bmp.Save("map.bmp");
+            
+            
+            
             Console.Read();
         }
     }
